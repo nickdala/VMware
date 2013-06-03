@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VmToolsLib.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:VmToolsLib.VMware.Moles.MEsxHostSystem">
+            <summary>Mole type of <see cref="T:VmToolsLib.VMware.EsxHostSystem"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MEsxHostSystem.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MEsxHostSystem.#ctor(VmToolsLib.VMware.EsxHostSystem)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MEsxHostSystem.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MEsxHostSystem.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.ConstructorVSphereManagedObjectHostSystem">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.EsxHostSystem.#ctor(VmToolsLib.VMware.VSphereManagedObject,VMware.Vim.HostSystem)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.ConstructorVSphereManagedObjectString">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.EsxHostSystem.#ctor(VmToolsLib.VMware.VSphereManagedObject,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.GetHostSystemString">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.EsxHostSystem.GetHostSystem(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.GetVirtualMachines">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.EsxHostSystem.GetVirtualMachines"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.NameGet">
+            <summary>Sets the mole of <see cref="P:VmToolsLib.VMware.EsxHostSystem.Name"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.VirtualMachinesGet">
+            <summary>Sets the mole of <see cref="P:VmToolsLib.VMware.EsxHostSystem.VirtualMachines"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem._GetVirtualMachinesb__1ViewBase">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.EsxHostSystem.&lt;GetVirtualMachines&gt;b__1(VMware.Vim.ViewBase)"/>
+            </summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.MEsxHostSystem.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.AllInstances.GetHostSystemString">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.EsxHostSystem.GetHostSystem(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.AllInstances.GetVirtualMachines">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.EsxHostSystem.GetVirtualMachines"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.AllInstances.NameGet">
+            <summary>Sets the mole of <see cref="P:VmToolsLib.VMware.EsxHostSystem.Name"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.AllInstances.VirtualMachinesGet">
+            <summary>Sets the mole of <see cref="P:VmToolsLib.VMware.EsxHostSystem.VirtualMachines"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MEsxHostSystem.AllInstances._GetVirtualMachinesb__1ViewBase">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.EsxHostSystem.&lt;GetVirtualMachines&gt;b__1(VMware.Vim.ViewBase)"/>
+            </summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.MVSphereManagedObject">
+            <summary>Mole type of <see cref="T:VmToolsLib.VMware.VSphereManagedObject"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereManagedObject.#ctor(VmToolsLib.VMware.VSphereManagedObject)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereManagedObject.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereManagedObject.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereManagedObject.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereManagedObject.ConstructorIVSphereClient">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereManagedObject.#ctor(VmToolsLib.VMware.IVSphereClient)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereManagedObject.ConstructorStringStringString">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereManagedObject.#ctor(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereManagedObject.ConstructorVSphereManagedObject">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereManagedObject.#ctor(VmToolsLib.VMware.VSphereManagedObject)"/>
+            </summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.MVSphereManagedObject.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.MVSphereServer">
+            <summary>Mole type of <see cref="T:VmToolsLib.VMware.VSphereServer"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereServer.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereServer.#ctor(VmToolsLib.VMware.VSphereServer)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereServer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereServer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereServer.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereServer.ConstructorStringStringString">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereServer.#ctor(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereServer.ConstructorVSphereManagedObject">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereServer.#ctor(VmToolsLib.VMware.VSphereManagedObject)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereServer.EsxHostSystemsGet">
+            <summary>Sets the mole of <see cref="P:VmToolsLib.VMware.VSphereServer.EsxHostSystems"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereServer.GetHostSystems">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereServer.GetHostSystems"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereServer._GetHostSystemsb__0EntityViewBase">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereServer.&lt;GetHostSystems&gt;b__0(VMware.Vim.EntityViewBase)"/>
+            </summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.MVSphereServer.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereServer.AllInstances.EsxHostSystemsGet">
+            <summary>Sets the mole of <see cref="P:VmToolsLib.VMware.VSphereServer.EsxHostSystems"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereServer.AllInstances.GetHostSystems">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereServer.GetHostSystems"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereServer.AllInstances._GetHostSystemsb__0EntityViewBase">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereServer.&lt;GetHostSystems&gt;b__0(VMware.Vim.EntityViewBase)"/>
+            </summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.MVSphereVirtualMachine">
+            <summary>Mole type of <see cref="T:VmToolsLib.VMware.VSphereVirtualMachine"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereVirtualMachine.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereVirtualMachine.#ctor(VmToolsLib.VMware.VSphereVirtualMachine)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereVirtualMachine.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.MVSphereVirtualMachine.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereVirtualMachine.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereVirtualMachine.ConstructorVSphereManagedObjectVirtualMachine">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VMware.VSphereVirtualMachine.#ctor(VmToolsLib.VMware.VSphereManagedObject,VMware.Vim.VirtualMachine)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereVirtualMachine.NameGet">
+            <summary>Sets the mole of <see cref="P:VmToolsLib.VMware.VSphereVirtualMachine.Name"/>
+            </summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.MVSphereVirtualMachine.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.MVSphereVirtualMachine.AllInstances.NameGet">
+            <summary>Sets the mole of <see cref="P:VmToolsLib.VMware.VSphereVirtualMachine.Name"/>
+            </summary>
+        </member>
+        <member name="T:VmToolsLib.Moles.MVmToolsException">
+            <summary>Mole type of <see cref="T:VmToolsLib.VmToolsException"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.Moles.MVmToolsException.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:VmToolsLib.Moles.MVmToolsException.#ctor(VmToolsLib.VmToolsException)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:VmToolsLib.Moles.MVmToolsException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:VmToolsLib.Moles.MVmToolsException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:VmToolsLib.Moles.MVmToolsException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:VmToolsLib.Moles.MVmToolsException.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:VmToolsLib.Moles.MVmToolsException.Constructor">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VmToolsException.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.Moles.MVmToolsException.ConstructorString">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VmToolsException.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:VmToolsLib.Moles.MVmToolsException.ConstructorStringException">
+            <summary>Sets the mole of <see cref="M:VmToolsLib.VmToolsException.#ctor(System.String,System.Exception)"/>
+            </summary>
+        </member>
+        <member name="T:VmToolsLib.Moles.MVmToolsException.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.SEsxHostSystem">
+            <summary>Stub type of <see cref="T:VmToolsLib.VMware.EsxHostSystem"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SEsxHostSystem.#ctor(VmToolsLib.VMware.VSphereManagedObject,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SEsxHostSystem.InitializeStub">
+            <summary>Initializes a new instance of type SEsxHostSystem</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.SEsxHostSystem.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.SEsxHostSystem.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.SIVSphereClient">
+            <summary>Stub type of <see cref="T:VmToolsLib.VMware.IVSphereClient"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SIVSphereClient.#ctor">
+            <summary>Initializes a new instance of type SIVSphereClient</summary>
+        </member>
+        <member name="F:VmToolsLib.VMware.Moles.SIVSphereClient.FindEntityViewTypeManagedObjectReferenceNameValueCollectionStringArray">
+            <summary>Sets the stub of <see cref="M:VmToolsLib.VMware.IVSphereClient.FindEntityView(System.Type,VMware.Vim.ManagedObjectReference,System.Collections.Specialized.NameValueCollection,System.String[])"/>
+            </summary>
+        </member>
+        <member name="F:VmToolsLib.VMware.Moles.SIVSphereClient.FindEntityViewsTypeManagedObjectReferenceNameValueCollectionStringArray">
+            <summary>Sets the stub of <see cref="M:VmToolsLib.VMware.IVSphereClient.FindEntityViews(System.Type,VMware.Vim.ManagedObjectReference,System.Collections.Specialized.NameValueCollection,System.String[])"/>
+            </summary>
+        </member>
+        <member name="F:VmToolsLib.VMware.Moles.SIVSphereClient.GetViewsIEnumerableOfManagedObjectReferenceStringArray">
+            <summary>Sets the stub of <see cref="M:VmToolsLib.VMware.IVSphereClient.GetViews(System.Collections.Generic.IEnumerable`1{VMware.Vim.ManagedObjectReference},System.String[])"/>
+            </summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SIVSphereClient.vtl::VmToolsLib#VMware#IVSphereClient#FindEntityView(System.Type,VMware.Vim.ManagedObjectReference,System.Collections.Specialized.NameValueCollection,System.String[])">
+            <summary>Sets the stub of <see cref="M:VmToolsLib.VMware.IVSphereClient.FindEntityView(System.Type,VMware.Vim.ManagedObjectReference,System.Collections.Specialized.NameValueCollection,System.String[])"/>
+            </summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SIVSphereClient.vtl::VmToolsLib#VMware#IVSphereClient#FindEntityViews(System.Type,VMware.Vim.ManagedObjectReference,System.Collections.Specialized.NameValueCollection,System.String[])">
+            <summary>Sets the stub of <see cref="M:VmToolsLib.VMware.IVSphereClient.FindEntityViews(System.Type,VMware.Vim.ManagedObjectReference,System.Collections.Specialized.NameValueCollection,System.String[])"/>
+            </summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SIVSphereClient.vtl::VmToolsLib#VMware#IVSphereClient#GetViews(System.Collections.Generic.IEnumerable{VMware.Vim.ManagedObjectReference},System.String[])">
+            <summary>Sets the stub of <see cref="M:VmToolsLib.VMware.IVSphereClient.GetViews(System.Collections.Generic.IEnumerable`1{VMware.Vim.ManagedObjectReference},System.String[])"/>
+            </summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.SVSphereManagedObject">
+            <summary>Stub type of <see cref="T:VmToolsLib.VMware.VSphereManagedObject"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SVSphereManagedObject.#ctor(VmToolsLib.VMware.IVSphereClient)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SVSphereManagedObject.#ctor(VmToolsLib.VMware.VSphereManagedObject)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SVSphereManagedObject.#ctor(System.String,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SVSphereManagedObject.InitializeStub">
+            <summary>Initializes a new instance of type SVSphereManagedObject</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.SVSphereManagedObject.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.SVSphereManagedObject.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:VmToolsLib.VMware.Moles.SVSphereServer">
+            <summary>Stub type of <see cref="T:VmToolsLib.VMware.VSphereServer"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SVSphereServer.#ctor(VmToolsLib.VMware.VSphereManagedObject)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SVSphereServer.#ctor(System.String,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:VmToolsLib.VMware.Moles.SVSphereServer.InitializeStub">
+            <summary>Initializes a new instance of type SVSphereServer</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.SVSphereServer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:VmToolsLib.VMware.Moles.SVSphereServer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:VmToolsLib.Moles.SVmToolsException">
+            <summary>Stub type of <see cref="T:VmToolsLib.VmToolsException"/>
+            .</summary>
+        </member>
+        <member name="M:VmToolsLib.Moles.SVmToolsException.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:VmToolsLib.Moles.SVmToolsException.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:VmToolsLib.Moles.SVmToolsException.#ctor(System.String,System.Exception)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:VmToolsLib.Moles.SVmToolsException.InitializeStub">
+            <summary>Initializes a new instance of type SVmToolsException</summary>
+        </member>
+        <member name="P:VmToolsLib.Moles.SVmToolsException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:VmToolsLib.Moles.SVmToolsException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
