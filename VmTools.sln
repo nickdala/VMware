@@ -1,11 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VmTools", "VmTools\VmTools.csproj", "{BFD577A7-1935-4C63-A99A-F9E9E518151B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VmToolsLib", "VmToolsLib\VmToolsLib.csproj", "{325F5C9A-DAC2-4D4C-BA2C-44DED8A93BED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VmToolsLibUnitTests", "VmToolsLibUnitTests\VmToolsLibUnitTests.csproj", "{5C667649-0B23-484E-B4D0-07A097B2E45B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5CF5E2F-258A-4F04-B935-FA01A6112BE2}"
 	ProjectSection(SolutionItems) = preProject
@@ -32,10 +30,6 @@ Global
 		{325F5C9A-DAC2-4D4C-BA2C-44DED8A93BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{325F5C9A-DAC2-4D4C-BA2C-44DED8A93BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{325F5C9A-DAC2-4D4C-BA2C-44DED8A93BED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C667649-0B23-484E-B4D0-07A097B2E45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C667649-0B23-484E-B4D0-07A097B2E45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C667649-0B23-484E-B4D0-07A097B2E45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C667649-0B23-484E-B4D0-07A097B2E45B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

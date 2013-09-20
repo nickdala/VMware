@@ -1,7 +1,7 @@
 This is an example of how one can use the VMware.Vim assembly in order to communicate with an ESX host.  The VMware.Vim assembly is installed as part of 
 the VMware PowerCLI.
 
-This project enumerates the virtual machines on an ESX host.  This solution comes with unit tests.  The unit tests uses Pex & Moles from Microsoft.
+This project enumerates the virtual machines on an ESX host.
 
 Below is the output of the 'Get-Esxhost' PowerShell Cmdlet.
 
