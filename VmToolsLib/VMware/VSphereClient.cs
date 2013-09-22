@@ -5,7 +5,7 @@ using VMware.Vim;
 
 namespace VmToolsLib.VMware
 {
-    internal sealed class VSphereClient : IVSphereClient
+    internal sealed class VSphereClient
     {
         private readonly VimClient _client;
 

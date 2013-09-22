@@ -38,7 +38,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="VMware.Vim, Version=5.1.0.0, Culture=neutral, PublicKeyToken=10980b081e887e9f, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\VMware\Infrastructure\vSphere PowerCLI\VMware.Vim.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\VMware\Infrastructure\vSphere PowerCLI\VMware.Vim.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -50,7 +51,6 @@
     </Compile>
     <Compile Include="VmToolsException.cs" />
     <Compile Include="VMware\EsxHostSystem.cs" />
-    <Compile Include="VMware\IVSphereClient.cs" />
     <Compile Include="VMware\VSphereClient.cs" />
     <Compile Include="VMware\VSphereManagedObject.cs" />
     <Compile Include="VMware\VSphereServer.cs" />

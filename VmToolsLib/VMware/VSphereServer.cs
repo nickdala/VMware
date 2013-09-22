@@ -5,6 +5,9 @@ using VMware.Vim;
 
 namespace VmToolsLib.VMware
 {
+    /// <summary>
+    /// Represents either a vCenter Server or an ESX host.
+    /// </summary>
     public class VSphereServer : VSphereManagedObject
     {
         #region Constructor

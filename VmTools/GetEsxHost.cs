@@ -8,21 +8,15 @@ namespace VmTools
     {
         [Parameter(Mandatory = true)]
         [ValidateNotNullOrEmpty]
-        public string EsxHostName { get; set; }
+        public string Name { get; set; }
 
         [Parameter(Mandatory = true)]
         [ValidateNotNullOrEmpty]
-        public string UserName { get; set; }
-
-        [Parameter(Mandatory = true)]
-        [ValidateNotNullOrEmpty]
-        public string Password { get; set; }
-
+        public VSphereServer Server { get; set; }
+        
         protected override void ProcessRecord()
         {
-            var vSphereServer = new VSphereServer(EsxHostName, UserName, Password);
-
-            var esxHostSystem = new EsxHostSystem(vSphereServer, EsxHostName);
+            var esxHostSystem = new EsxHostSystem(Server, Name);
 
             WriteObject(esxHostSystem);
         }

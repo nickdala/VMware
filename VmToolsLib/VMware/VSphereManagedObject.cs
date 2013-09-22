@@ -6,7 +6,7 @@ namespace VmToolsLib.VMware
 {
     public abstract class VSphereManagedObject
     {
-        protected IVSphereClient Client;
+        internal VSphereClient Client;
 
         protected VSphereManagedObject(string server, string userName, string password)
         {
@@ -23,16 +23,6 @@ namespace VmToolsLib.VMware
             }
 
             Client = vSphereManagedObject.Client;
-        }
-
-        protected VSphereManagedObject(IVSphereClient vSphereClient)
-        {
-            if (vSphereClient == null)
-            {
-                throw new ArgumentNullException("vSphereClient", string.Format(CultureInfo.CurrentUICulture, Strings.ErrorParameterNull, "vSphereClient"));
-            }
-
-            Client = vSphereClient;
         }
     }
 }
